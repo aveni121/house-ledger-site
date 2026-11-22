@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="referrer" content="no-referrer" />
+    <title>House Ledger</title>
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#141416" media="(prefers-color-scheme: dark)" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='3' y='8' width='26' height='18' rx='3' fill='%23f2b705'/%3E%3Cpath d='M3 9l13 9 13-9' fill='none' stroke='%231d1d1f' stroke-opacity='.35' stroke-width='2'/%3E%3C/svg%3E" />
+    <script>
+      // Apply a stored theme choice before first paint; otherwise CSS follows prefers-color-scheme.
+      try {
+        var t = localStorage.getItem("house.theme");
+        if (t === "light" || t === "dark") document.documentElement.dataset.theme = t;
+      } catch (e) {}
+    </script>
+    <script type="module" crossorigin src="/house-ledger-site/assets/index-DIvKbZ_8.js"></script>
+    <link rel="modulepreload" crossorigin href="/house-ledger-site/assets/react-zm0eDGcM.js">
+    <link rel="stylesheet" crossorigin href="/house-ledger-site/assets/index-e00OzfsB.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
